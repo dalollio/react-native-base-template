@@ -12,6 +12,10 @@ target 'ReactNativeBase' do
     :hermes_enabled => false
   )
 
+  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
+
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
   target 'ReactNativeBaseTests' do
     inherit! :complete
     # Pods for testing
